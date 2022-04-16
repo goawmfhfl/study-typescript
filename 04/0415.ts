@@ -1,7 +1,3 @@
-// 자바스크립트에는 어떠한 것들이 있었는가?
-// string, number, boolean, null, unedfined,Object,Array 등등이 있다.
-// 나는 기존에 타입들을 정의를 어떻게 했었는가?
-
 // Number
 let letNumber = 1;
 let constNumber = 2;
