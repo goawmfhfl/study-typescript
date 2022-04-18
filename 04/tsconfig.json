@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "checkJs": true,
+      "noImplicitAny": true, // true: 컴파일 에러가 빨간색으로 바뀌었다. 빨간색이 남아있다면 타입스크립트 파일이 컴파일이 이루어지지 않는다.
+    },
+    "include": ["./0417.ts"]
+  }
+  

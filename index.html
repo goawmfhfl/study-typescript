@@ -8,10 +8,19 @@
   </head>
   <body>
     <script>
-      function sum(a, b) {
-        return a + b;
+      function testFunctionType(id, date, objectValue) {
+        var idTest = id + 1;
+        var curDate = date;
+        var objectValueTest = objectValue;
+        objectValueTest.idTest = "value";
+        return {
+          id: idTest,
+          Date: curDate.getDay(),
+          object: objectValueTest,
+        };
       }
-      sum(10, 20, 30, 40, 50);
+
+      console.log(testFunctionType(123, new Date(), {}));
     </script>
   </body>
 </html>
